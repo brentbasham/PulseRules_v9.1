@@ -1,0 +1,7 @@
+Feature: Immutable Title (Why?)
+  Given: The title of the feature exists
+  When: A user attempts to change it
+  Then: The change happens and all is right in Jira/qTest land
+
+  Scenario:
+    <Some interesting scenario steps here>
