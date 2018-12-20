@@ -1,5 +1,5 @@
 Feature: Immutable Title (Why?)
-  Given: The title of the feature exists SLACK MESSAGE
+  Given: The title of the feature exists SLACK MESSAGE SUCCESS
   When: A user attempts to change it
   Then: The change happens and all is right in Jira/qTest land
 
