@@ -1,7 +1,12 @@
-Feature: Immutable Title (Why?)
-  Given: The title of the feature exists SLACK MESSAGE SUCCESS
-  When: A user attempts to change it
-  Then: The change happens and all is right in Jira/qTest land
+Feature: Login
 
-  Scenario:
-    <Some interesting scenario steps here>
+  Scenario: Windows Desktop
+    Given: A logged out user
+    When: User tries to login
+    Then: Taken to logged in view
+    
+  Scenario: iOS
+    Given: A logged out user
+    When: User tries to login (app)
+    Then: Taken to logged in view
+      
